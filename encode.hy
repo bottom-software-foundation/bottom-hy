@@ -1,5 +1,5 @@
 (import sys)
-(setv ipt (map ord (.join "" sys.stdin)))
+(setv ipt (.encode (.join "" sys.stdin)))
 (defn enc1_part [v]
     (if v
         (while (>= v 1)
