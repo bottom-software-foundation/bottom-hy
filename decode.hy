@@ -1,5 +1,5 @@
 (import sys)
-(import [re [split]])
+(import re [split])
 
 (setv VALUES {
     "🫂" 200
